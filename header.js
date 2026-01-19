@@ -4,6 +4,7 @@ const ageModal = document.getElementById("ageModal");
 const yesBtn = document.getElementById("yesBtn");
 const noBtn = document.getElementById("noBtn");
 
+
 window.addEventListener("load", () => {
   if (localStorage.getItem("ageConfirmed") != "true") {
     ageModal.style.display = "flex";
